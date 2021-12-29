@@ -1,0 +1,664 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=
+Description=
+TargetOutputMedium=Pick and Place
+VariantName=Basic
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=HP Color LaserJet MFP M281fdw (234D58)
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Assembly
+OutputMedium1_Type=Publish
+OutputMedium2=Pick and Place
+OutputMedium2_Type=GeneratedFiles
+OutputMedium3=BoM
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=SVN BoM
+OutputMedium4_Type=GeneratedFiles
+OutputMedium5=Schematic
+OutputMedium5_Type=Publish
+OutputMedium6=PART (.STEP)
+OutputMedium6_Type=GeneratedFiles
+OutputMedium7=Gerber
+OutputMedium7_Type=GeneratedFiles
+OutputMedium8=NC Drill
+OutputMedium8_Type=GeneratedFiles
+OutputMedium9=Print Schematic and Assembly Drawing
+OutputMedium9_Type=Printer
+OutputMedium9_Printer=\\DRIVETEK-SRV2\Epson AL-C1100
+OutputMedium9_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium10=ERC
+OutputMedium10_Type=GeneratedFiles
+OutputMedium11=DRC
+OutputMedium11_Type=GeneratedFiles
+OutputType1=Schematic Print
+OutputName1=SC Schematic
+OutputCategory1=Documentation
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=Basic
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=1
+OutputEnabled1_OutputMedium6=0
+OutputEnabled1_OutputMedium7=0
+OutputEnabled1_OutputMedium8=0
+OutputEnabled1_OutputMedium9=1
+OutputEnabled1_OutputMedium10=0
+OutputEnabled1_OutputMedium11=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project Physical Documents]
+OutputType2=Pick Place
+OutputName2=Pick and Place
+OutputCategory2=Assembly
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=1
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
+OutputEnabled2_OutputMedium7=0
+OutputEnabled2_OutputMedium8=0
+OutputEnabled2_OutputMedium9=0
+OutputEnabled2_OutputMedium10=0
+OutputEnabled2_OutputMedium11=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:Ascending,SortIndex:0,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Package Reference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#18=Name:Nominal Vf,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#19=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#20=Name:MPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#21=Name:Manufacturer Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#22=Name:Distributor#1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#23=Name:Datasheet Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#24=Name:LatestRevision Note,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#25=Name:Ordercode - Distri#2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#26=Name:Package Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#27=Name:Checked,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#28=Name:Ordercode - Manu#1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#29=Name:RoHS Compliant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78|Column#30=Name:ClassName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#31=Name:Type1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83|Column#32=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:87|Column#33=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#34=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#35=Name:Distributor#2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#36=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#37=Name:CaseName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#38=Name:Tmin,Fixed:False,Metric:False,Visible:False,Sort:None,Position:81|Column#39=Name:Manufacturer URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#40=Name:Lens Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#41=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#42=Name:Datasheet,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#43=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#44=Name:PartValue,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#45=Name:MountType,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#46=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#47=Name:System,Fixed:False,Metric:False,Visible:False,Sort:None,Position:79|Column#48=Name:Case/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#49=Name:Illumination Colour,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#50=Name:Luminous Intensity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#51=Name:Part Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#52=Name:Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#53=Name:Ordercode - Distri#1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#54=Name:Order Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#55=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82|Column#56=Name:Tmax,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80|Column#57=Name:Viewing Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:86|Column#58=Name:Distributor 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#59=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#60=Name:Type2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:84|Column#61=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#62=Name:Forward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#63=Name:Colour,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#64=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#65=Name:Distributor,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#66=Name:Manufacturer 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#67=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#68=Name:AECQ,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#69=Name:Manufacturer 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#70=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77|Column#71=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#72=Name:Type3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:85|Column#73=Name:Author,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#74=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#75=Name:Datasheet URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#76=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#77=Name:Order Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#78=Name:Max Power Dissipation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#79=Name:Geometry.Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#80=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#81=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#82=Name:Manufacturer Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#83=Name:Package Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#84=Name:Nominal Wave,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#85=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#86=Name:LatestRevision Date,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#87=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#88=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType3=BOM_PartType
+OutputName3=BoM
+OutputCategory3=Report
+OutputDocumentPath3=
+OutputVariantName3=Basic
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=1
+OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
+OutputEnabled3_OutputMedium7=0
+OutputEnabled3_OutputMedium8=0
+OutputEnabled3_OutputMedium9=0
+OutputEnabled3_OutputMedium10=0
+OutputEnabled3_OutputMedium11=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration3_Name1=ColumnNameFormat
+Configuration3_Item1=CaptionAsName
+Configuration3_Name2=General
+Configuration3_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=D:\Altium\EIT\EIT Templates\BOM EIT.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1977|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration3_Name3=GroupOrder
+Configuration3_Item3=Part Number=True|DesignItemId=True
+Configuration3_Name4=PCBDocument
+Configuration3_Item4=FileName=PCB1.PcbDoc
+Configuration3_Name5=PCBDocument2
+Configuration3_Item5=FileName=[PCB Document 1]
+Configuration3_Name6=SortOrder
+Configuration3_Item6=DesignItemId=Up
+Configuration3_Name7=VisibleOrder
+Configuration3_Item7=DesignItemId=130|PartType=164|Designator=104|Description=440|Manufacturer Part Number 1=174|Manufacturer 1=124|Distributor=100|Order Number=162|Quantity=62|PartValue=164
+Configuration3_Name8=VisibleOrder_Flat
+Configuration3_Item8=DesignItemId=130|PartType=164|Designator=104|Description=440|Manufacturer Part Number 1=174|Manufacturer 1=124|Distributor=100|Order Number=162|Quantity=62|PartValue=164
+OutputType4=ExportSTEP
+OutputName4=Step Output
+OutputCategory4=Export
+OutputDocumentPath4=
+OutputVariantName4=Basic
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=1
+OutputEnabled4_OutputMedium7=0
+OutputEnabled4_OutputMedium8=0
+OutputEnabled4_OutputMedium9=0
+OutputEnabled4_OutputMedium10=0
+OutputEnabled4_OutputMedium11=0
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ComponentSuffixType=0|ComponentSuffix=|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputCategory5=Fabrication
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
+OutputEnabled5_OutputMedium7=1
+OutputEnabled5_OutputMedium8=0
+OutputEnabled5_OutputMedium9=0
+OutputEnabled5_OutputMedium10=0
+OutputEnabled5_OutputMedium11=0
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908304~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=196850|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set="Signal Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908292~1,16908294~1,16908295~1,16908298~1,16908299~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\Altium\EIT\Working Copy\48V to BOB\48V to BOB.PcbDoc
+OutputType6=NC Drill
+OutputName6=Drill Files
+OutputCategory6=Fabrication
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=0
+OutputEnabled6_OutputMedium7=0
+OutputEnabled6_OutputMedium8=1
+OutputEnabled6_OutputMedium9=0
+OutputEnabled6_OutputMedium10=0
+OutputEnabled6_OutputMedium11=0
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType7=PCBDrawing
+OutputName7=Assembly
+OutputCategory7=Documentation
+OutputDocumentPath7=48V to BOB_ASSY.PCBDwf
+OutputVariantName7=
+OutputEnabled7=0
+OutputEnabled7_OutputMedium1=1
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=0
+OutputEnabled7_OutputMedium7=0
+OutputEnabled7_OutputMedium8=0
+OutputEnabled7_OutputMedium9=0
+OutputEnabled7_OutputMedium10=0
+OutputEnabled7_OutputMedium11=0
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Test Points
+OutputName8=Test Point Report
+OutputCategory8=Fabrication
+OutputDocumentPath8=
+OutputVariantName8=
+OutputEnabled8=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=0
+OutputEnabled8_OutputMedium7=0
+OutputEnabled8_OutputMedium8=0
+OutputEnabled8_OutputMedium9=0
+OutputEnabled8_OutputMedium10=0
+OutputEnabled8_OutputMedium11=0
+OutputDefault8=0
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=AdjacencyDistance=250000|GenerateCSVFormat=True|GenerateIPCFormat=False|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=False|OriginPosition=Relative|OutlineLayer=56|OutputAdjancencies=False|OutputBoardOutline=False|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Metric|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
+OutputCategory9=Fabrication
+OutputDocumentPath9=
+OutputVariantName9=
+OutputEnabled9=0
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=0
+OutputEnabled9_OutputMedium7=0
+OutputEnabled9_OutputMedium8=0
+OutputEnabled9_OutputMedium9=0
+OutputEnabled9_OutputMedium10=0
+OutputEnabled9_OutputMedium11=0
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=LayerStackReportView|Units=Metric|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType10=Design Rules Check
+OutputName10=Design Rules Check
+OutputCategory10=Validation
+OutputDocumentPath10=
+OutputVariantName10=
+OutputEnabled10=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=0
+OutputEnabled10_OutputMedium6=0
+OutputEnabled10_OutputMedium7=0
+OutputEnabled10_OutputMedium8=0
+OutputEnabled10_OutputMedium9=0
+OutputEnabled10_OutputMedium10=0
+OutputEnabled10_OutputMedium11=1
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=w|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ComponentSuffixType=0|ComponentSuffix=|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType11=Gerber X2
+OutputName11=Gerber Files X2
+OutputCategory11=Fabrication
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=0
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=0
+OutputEnabled11_OutputMedium3=0
+OutputEnabled11_OutputMedium4=0
+OutputEnabled11_OutputMedium5=0
+OutputEnabled11_OutputMedium6=0
+OutputEnabled11_OutputMedium7=0
+OutputEnabled11_OutputMedium8=0
+OutputEnabled11_OutputMedium9=0
+OutputEnabled11_OutputMedium10=0
+OutputEnabled11_OutputMedium11=0
+OutputDefault11=0
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GenerateReports=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16908290~1,16908298~1,16908304~1,16908289~1,16908295~1,16973848~1,16777219~1,16908299~1,16973849~1,16908294~1,16973835~1,16973832~1,16842751~1,16973834~1,16777218~1,16908292~1,16973833~1,16973831~1,16973830~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType12=ODB
+OutputName12=ODB++ Files
+OutputCategory12=Fabrication
+OutputDocumentPath12=
+OutputVariantName12=
+OutputEnabled12=0
+OutputEnabled12_OutputMedium1=0
+OutputEnabled12_OutputMedium2=0
+OutputEnabled12_OutputMedium3=0
+OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium5=0
+OutputEnabled12_OutputMedium6=0
+OutputEnabled12_OutputMedium7=0
+OutputEnabled12_OutputMedium8=0
+OutputEnabled12_OutputMedium9=0
+OutputEnabled12_OutputMedium10=0
+OutputEnabled12_OutputMedium11=0
+OutputDefault12=0
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=True|IncludeUnconnectedMidLayerPads=True|MergeNetTieNets=True|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 32|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=True|PlotMechanical11Plot=True|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=False|PlotMechanical4Plot=True|PlotMechanical5Plot=False|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|Units=Imperial|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType13=IPC2581
+OutputName13=IPC-2581 Files
+OutputCategory13=Fabrication
+OutputDocumentPath13=
+OutputVariantName13=
+OutputEnabled13=0
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=0
+OutputEnabled13_OutputMedium6=0
+OutputEnabled13_OutputMedium7=0
+OutputEnabled13_OutputMedium8=0
+OutputEnabled13_OutputMedium9=0
+OutputEnabled13_OutputMedium10=0
+OutputEnabled13_OutputMedium11=0
+OutputDefault13=0
+Configuration13_Name1=OutputConfigurationParameter1
+Configuration13_Item1=Record=IPC2581View|IPC2581Version=B|MeasurementSystem=Metric|FloatingPointPrecision=6|IsWiseSupport=False|MergeNetTieNets=True|OEMDesignNumberRef=DesignItemID|DocumentPath=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\48V TMC5160 Driver.PcbDoc
+OutputType14=BOM_PartType
+OutputName14=Active BoM
+OutputCategory14=Report
+OutputDocumentPath14=[ActiveBOM Document]
+OutputVariantName14=
+OutputEnabled14=0
+OutputEnabled14_OutputMedium1=0
+OutputEnabled14_OutputMedium2=0
+OutputEnabled14_OutputMedium3=0
+OutputEnabled14_OutputMedium4=0
+OutputEnabled14_OutputMedium5=0
+OutputEnabled14_OutputMedium6=0
+OutputEnabled14_OutputMedium7=0
+OutputEnabled14_OutputMedium8=0
+OutputEnabled14_OutputMedium9=0
+OutputEnabled14_OutputMedium10=0
+OutputEnabled14_OutputMedium11=0
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration14_Name1=ColumnNameFormat
+Configuration14_Item1=CaptionAsName
+Configuration14_Name2=General
+Configuration14_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=10|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CHF|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration14_Name3=GroupOrder
+Configuration14_Item3=
+Configuration14_Name4=SortOrder
+Configuration14_Item4=Supplier Unit Price 1=Up
+Configuration14_Name5=VisibleOrder
+Configuration14_Item5=Line #=158|DesignItemId=282|Comment=139|Description=180|Designator=80|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122|TargetPrice=79|Quantity=67
+Configuration14_Name6=VisibleOrder_Base
+Configuration14_Item6=Line #=158|DesignItemId=282|Comment=139|Description=180|Designator=80|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122|TargetPrice=79|Quantity=67
+Configuration14_Name7=VisibleOrder_Consolidated
+Configuration14_Item7=Line #=34|Comment=52|Description=82|Designator=80|Quantity=67|TargetPrice=79|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122|Quantity@Basic=75|Price@Basic=82|Quantity@All Components=132|Price@All Components=139
+Configuration14_Name8=VisibleOrder_Flat
+Configuration14_Item8=Line #=14|Comment=52|Description=82|Designator=80|TargetPrice=79|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+OutputType15=Electrical Rules Check
+OutputName15=Electrical Rules Check
+OutputCategory15=Validation
+OutputDocumentPath15=
+OutputVariantName15=
+OutputEnabled15=0
+OutputEnabled15_OutputMedium1=0
+OutputEnabled15_OutputMedium2=0
+OutputEnabled15_OutputMedium3=0
+OutputEnabled15_OutputMedium4=0
+OutputEnabled15_OutputMedium5=0
+OutputEnabled15_OutputMedium6=0
+OutputEnabled15_OutputMedium7=0
+OutputEnabled15_OutputMedium8=0
+OutputEnabled15_OutputMedium9=0
+OutputEnabled15_OutputMedium10=1
+OutputEnabled15_OutputMedium11=0
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration15_Name1=OutputConfigurationParameter1
+Configuration15_Item1=ERCClassColumnOrder=0|ERCClassColumnSort=0|ERCClassColumnVisibility=True|ERCConnectionMatrixL1=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL10=NWNNNNNENNEWNNEWN|ERCConnectionMatrixL11=NNENNNNEEENWNENWN|ERCConnectionMatrixL12=WWWWNWWNWWWNWWWNN|ERCConnectionMatrixL13=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL14=NWEENEEEENEWNENWW|ERCConnectionMatrixL15=NNENNNNEEENWNNNWW|ERCConnectionMatrixL16=WWWWNWWNWWWNWWWNW|ERCConnectionMatrixL17=WNNNNNNNWNNNWWWWN|ERCConnectionMatrixL2=NNWNNNNWWWNWNWNWN|ERCConnectionMatrixL3=NWEENEEEENEWNEEWN|ERCConnectionMatrixL4=NNENNNWEENNWNENWN|ERCConnectionMatrixL5=NNNNNNNNNNNNNNNNN|ERCConnectionMatrixL6=NNENNNNEENNWNENWN|ERCConnectionMatrixL7=NNEWNNWEENNWNENWN|ERCConnectionMatrixL8=NWEENEENEEENNEENN|ERCConnectionMatrixL9=NWEENEEEENEWNEEWW|ERCDocumentColumnOrder=1|ERCDocumentColumnSort=0|ERCDocumentColumnVisibility=True|ERCMessageColumnOrder=2|ERCMessageColumnSort=0|ERCMessageColumnVisibility=True|ERCReportGrouping=2|ERCReportMode=0|ERCReportSuppressedErrors=False|ERCType1=1|ERCType10=1|ERCType100=2|ERCType101=0|ERCType102=2|ERCType103=2|ERCType104=1|ERCType105=2|ERCType106=2|ERCType107=2|ERCType108=2|ERCType109=1|ERCType11=2|ERCType110=1|ERCType111=1|ERCType112=1|ERCType113=1|ERCType114=2|ERCType115=2|ERCType116=2|ERCType117=3|ERCType118=3|ERCType119=3|ERCType12=2|ERCType120=2|ERCType121=3|ERCType122=2|ERCType123=1|ERCType124=1|ERCType125=1|ERCType126=0|ERCType13=2|ERCType14=1|ERCType15=1|ERCType16=1|ERCType17=1|ERCType18=1|ERCType19=1|ERCType2=1|ERCType20=0|ERCType21=0|ERCType22=0|ERCType23=0|ERCType24=1|ERCType25=2|ERCType26=0|ERCType27=2|ERCType28=1|ERCType29=1|ERCType3=2|ERCType30=1|ERCType31=1|ERCType32=2|ERCType33=0|ERCType34=2|ERCType35=1|ERCType36=2|ERCType37=1|ERCType38=2|ERCType39=2|ERCType4=1|ERCType40=2|ERCType41=0|ERCType42=2|ERCType43=1|ERCType44=0|ERCType45=0|ERCType46=0|ERCType47=0|ERCType48=0|ERCType49=0|ERCType5=2|ERCType50=2|ERCType51=0|ERCType52=0|ERCType53=1|ERCType54=1|ERCType55=1|ERCType56=2|ERCType57=1|ERCType58=1|ERCType59=0|ERCType6=2|ERCType60=0|ERCType61=0|ERCType62=0|ERCType63=0|ERCType64=0|ERCType65=2|ERCType66=3|ERCType67=2|ERCType68=2|ERCType69=0|ERCType7=0|ERCType70=2|ERCType71=2|ERCType72=2|ERCType73=2|ERCType74=1|ERCType75=2|ERCType76=1|ERCType77=1|ERCType78=1|ERCType79=1|ERCType8=1|ERCType80=2|ERCType81=3|ERCType82=3|ERCType83=3|ERCType84=3|ERCType85=3|ERCType86=2|ERCType87=2|ERCType88=2|ERCType89=1|ERCType9=1|ERCType90=1|ERCType91=3|ERCType92=3|ERCType93=2|ERCType94=2|ERCType95=2|ERCType96=2|ERCType97=2|ERCType98=0|ERCType99=1|ERCValidationErrorLevel=1|Record=ERCReportView|DocumentPath=[Project]
+OutputType16=BOM_PartType
+OutputName16=SVN BoM
+OutputCategory16=Report
+OutputDocumentPath16=
+OutputVariantName16=Basic
+OutputEnabled16=0
+OutputEnabled16_OutputMedium1=0
+OutputEnabled16_OutputMedium2=0
+OutputEnabled16_OutputMedium3=0
+OutputEnabled16_OutputMedium4=1
+OutputEnabled16_OutputMedium5=0
+OutputEnabled16_OutputMedium6=0
+OutputEnabled16_OutputMedium7=0
+OutputEnabled16_OutputMedium8=0
+OutputEnabled16_OutputMedium9=0
+OutputEnabled16_OutputMedium10=0
+OutputEnabled16_OutputMedium11=0
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration16_Name1=ColumnNameFormat
+Configuration16_Item1=CaptionAsName
+Configuration16_Name2=General
+Configuration16_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=1|FormWidth=1977|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration16_Name3=GroupOrder
+Configuration16_Item3=Part Number=True|DesignItemId=True
+Configuration16_Name4=PCBDocument
+Configuration16_Item4=FileName=PCB1.PcbDoc
+Configuration16_Name5=PCBDocument2
+Configuration16_Item5=FileName=[PCB Document 1]
+Configuration16_Name6=SortOrder
+Configuration16_Item6=DesignItemId=Up
+Configuration16_Name7=VisibleOrder
+Configuration16_Item7=DesignItemId=130|PartType=164|Designator=104|Description=440|Manufacturer Part Number 1=174|Manufacturer 1=124|Distributor=100|Order Number=162|Quantity=62|PartValue=164
+Configuration16_Name8=VisibleOrder_Flat
+Configuration16_Item8=DesignItemId=130|PartType=164|Designator=104|Description=440|Manufacturer Part Number 1=174|Manufacturer 1=124|Distributor=100|Order Number=162|Quantity=62|PartValue=164
+
+[PublishSettings]
+OutputFilePath1=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\EIT48VBOB-AD.Variante.a_Rev_PA Assembly Data\
+ReleaseManaged1=0
+OutputBasePath1=Project Outputs\
+OutputPathMedia1==Artikel_Stamm+'-'+Typ_AD+'.'+Variante+'.'+a_Rev_PA+' Assembly Data'
+OutputPathMediaValue1==Artikel_Stamm+'-'+Typ_AD+'.'+Variante+'.'+a_Rev_PA+' Assembly Data'
+OutputPathOutputer1=[Output Custom]
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=Drawing and Specification
+OutputFileName1=Default_Drivetek_AUTO.PDF
+OutputFileNameMulti1==Artikel_Stamm+'-'+Typ_AD+'.'+Variante+'.'+a_Rev_PA+' Assembly Drawing and Specification '
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1=
+OpenOutput1=1
+PromptOverwrite1=1
+PublishMethod1=1
+ZoomLevel1=50
+FitSCHPrintSizeToDoc1=1
+FitPCBPrintSizeToDoc1=1
+GenerateNetsInfo1=0
+MarkPins1=1
+MarkNetLabels1=1
+MarkPortsId1=1
+GenerateTOC1=1
+ShowComponentParameters1=0
+GlobalBookmarks1=0
+PDFACompliance1=Disabled
+PDFVersion1=Default
+OutputFilePath2=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+ReleaseManaged2=0
+OutputBasePath2=Project Outputs\
+OutputPathMedia2==Artikel_Stamm+'-'+Typ_AD+'.'+Variante+'.'+a_Rev_PA+' Assembly Data'
+OutputPathMediaValue2==Artikel_Stamm+'-'+Typ_AD+'.'+Variante+'.'+a_Rev_PA+' Assembly Data'
+OutputPathOutputer2=[Output Custom]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=Pick and Place
+OutputFileName2=
+OutputFileNameMulti2==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB+' Pick and Place'
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=0
+OutputFilePath3=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+ReleaseManaged3=0
+OutputBasePath3=Project Outputs\
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3==Artikel_Stamm+'-'+Typ_BM+'.'+Variante+'.'+ b1_Rev_BM+' Bill of Material'
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=1
+OutputFilePath4=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+ReleaseManaged4=0
+OutputBasePath4=Project Outputs\
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=[Output Custom]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=SVN BoM
+OutputFileName4=
+OutputFileNameMulti4==Artikel_Stamm+'-'+Typ_BM+'.'+Variante+'.'+ b1_Rev_BM
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=1
+OutputFilePath5=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\Project Outputs\
+ReleaseManaged5=0
+OutputBasePath5=Project Outputs\
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=1542-eTurbo Interface Adapter Board.PDF
+OutputFileNameMulti5==Artikel_Stamm+'-'+Typ_SC+'.'+Variante+'-'+b2_Rev_SC+' Schematic'
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=1
+PromptOverwrite5=1
+PublishMethod5=1
+ZoomLevel5=69
+FitSCHPrintSizeToDoc5=1
+FitPCBPrintSizeToDoc5=1
+GenerateNetsInfo5=0
+MarkPins5=0
+MarkNetLabels5=1
+MarkPortsId5=1
+GenerateTOC5=1
+ShowComponentParameters5=1
+GlobalBookmarks5=1
+PDFACompliance5=Disabled
+PDFVersion5=Default
+OutputFilePath6=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+ReleaseManaged6=0
+OutputBasePath6=Project Outputs\
+OutputPathMedia6=
+OutputPathMediaValue6=
+OutputPathOutputer6=[Output Custom]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=STEP
+OutputFileName6=
+OutputFileNameMulti6==Artikel_Stamm+'-'+Typ_ST+'.'+Variante+'.'+b3_Rev_ST
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=0
+OutputFilePath7=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\EIT48VBOB-CD.002.002 CAM Data\
+ReleaseManaged7=0
+OutputBasePath7=Project Outputs\
+OutputPathMedia7==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB+' CAM Data'
+OutputPathMediaValue7==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB+' CAM Data'
+OutputPathOutputer7=[Output Type]
+OutputPathOutputerPrefix7=
+OutputPathOutputerValue7==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB+' CAM Data'
+OutputFileName7=
+OutputFileNameMulti7==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB
+UseOutputNameForMulti7=0
+OutputFileNameSpecial7=
+OpenOutput7=1
+OutputFilePath8=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\EIT48VBOB-CD.001.001 CAM Data\
+ReleaseManaged8=0
+OutputBasePath8=Project Outputs\
+OutputPathMedia8==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB+' CAM Data'
+OutputPathMediaValue8==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB+' CAM Data'
+OutputPathOutputer8=[Output Custom]
+OutputPathOutputerPrefix8=
+OutputPathOutputerValue8=NC Drill
+OutputFileName8=
+OutputFileNameMulti8==Artikel_Stamm+'-'+Typ_GB+'.'+Variante_PB+'.'+a51_Rev_GB+' NC Drill'
+UseOutputNameForMulti8=0
+OutputFileNameSpecial8=
+OpenOutput8=0
+OutputFilePath10=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+ReleaseManaged10=0
+OutputBasePath10=Project Outputs\
+OutputPathMedia10=
+OutputPathMediaValue10=
+OutputPathOutputer10=[Output Type]
+OutputPathOutputerPrefix10=
+OutputPathOutputerValue10=
+OutputFileName10=
+OutputFileNameMulti10==Artikel_Stamm+'-'+Variante_PB+'.'+a51_Rev_GB+' ERC '
+UseOutputNameForMulti10=0
+OutputFileNameSpecial10=
+OpenOutput10=1
+OutputFilePath11=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+ReleaseManaged11=0
+OutputBasePath11=Project Outputs\
+OutputPathMedia11=
+OutputPathMediaValue11=
+OutputPathOutputer11=[Output Custom]
+OutputPathOutputerPrefix11=
+OutputPathOutputerValue11=DRC
+OutputFileName11=
+OutputFileNameMulti11==Artikel_Stamm+'-'+Variante_PB+'.'+a51_Rev_GB+' DRC '
+UseOutputNameForMulti11=0
+OutputFileNameSpecial11=
+OpenOutput11=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\EIT48VBOB-AD.Variante.a_Rev_PA Assembly Data\
+OpenOutputs1=1
+RelativeOutputPath2=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+OpenOutputs2=0
+AddToProject2=1
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+RelativeOutputPath3=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+OpenOutputs3=1
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=1
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+OpenOutputs4=1
+AddToProject4=1
+TimestampFolder4=0
+UseOutputName4=1
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+RelativeOutputPath5=U:\EIT\48V Controller and Driver\Altium\48V Controller and Driver\Project Outputs\
+OpenOutputs5=1
+RelativeOutputPath6=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+OpenOutputs6=0
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
+RelativeOutputPath7=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\EIT48VBOB-CD.002.002 CAM Data\
+OpenOutputs7=1
+AddToProject7=1
+TimestampFolder7=0
+UseOutputName7=0
+OpenODBOutput7=0
+OpenGerberOutput7=0
+OpenNCDrillOutput7=0
+OpenIPCOutput7=0
+EnableReload7=0
+RelativeOutputPath8=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\EIT48VBOB-CD.001.001 CAM Data\
+OpenOutputs8=0
+AddToProject8=1
+TimestampFolder8=0
+UseOutputName8=0
+OpenODBOutput8=0
+OpenGerberOutput8=0
+OpenNCDrillOutput8=0
+OpenIPCOutput8=0
+EnableReload8=0
+RelativeOutputPath10=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+OpenOutputs10=1
+AddToProject10=1
+TimestampFolder10=0
+UseOutputName10=0
+OpenODBOutput10=0
+OpenGerberOutput10=0
+OpenNCDrillOutput10=0
+OpenIPCOutput10=0
+EnableReload10=0
+RelativeOutputPath11=D:\Altium\EIT\Working Copy\48V to BOB\Project Outputs\
+OpenOutputs11=1
+AddToProject11=1
+TimestampFolder11=0
+UseOutputName11=0
+OpenODBOutput11=0
+OpenGerberOutput11=0
+OpenNCDrillOutput11=0
+OpenIPCOutput11=0
+EnableReload11=0
+
